@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>James Morrison | Security &amp; AI</title>
+<meta name="description" content="James Morrison: support engineer working at the intersection of network security and AI.">
+<style>
+  :root { --bg:#0d1117; --fg:#e6edf3; --muted:#8b949e; --card:#161b22; --line:#30363d; --accent:#58a6ff; }
+  @media (prefers-color-scheme: light) {
+    :root { --bg:#ffffff; --fg:#1f2328; --muted:#59636e; --card:#f6f8fa; --line:#d1d9e0; --accent:#0969da; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:56px 20px 80px; }
+  h1 { font-size:2.2rem; margin:0 0 4px; }
+  .tag { color:var(--muted); margin:0 0 28px; }
+  h2 { font-size:1.15rem; margin:44px 0 14px; padding-bottom:6px; border-bottom:1px solid var(--line); }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .grid { display:grid; gap:14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 18px; }
+  .card h3 { margin:0 0 4px; font-size:1.02rem; }
+  .card p { margin:0; color:var(--muted); font-size:.95rem; }
+  .status { display:inline-block; font-size:.75rem; color:var(--muted);
+            border:1px solid var(--line); border-radius:999px; padding:1px 9px; margin-left:8px; vertical-align:middle; }
+  ul.links { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:8px 22px; }
+  footer { margin-top:56px; color:var(--muted); font-size:.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>James Morrison</h1>
+  <p class="tag">Support Engineer &middot; Network security &amp; applied AI</p>
+
+  <p>I work in network detection and response support, helping customers get answers out of their network traffic.
+     I hold a Master&rsquo;s in Information Systems Security and am currently working toward the CISSP.
+     This site collects the hands-on AI and security projects I&rsquo;m building to sharpen my skills.</p>
+
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>MCP + Claude detection triage agent <span class="status">in progress</span></h3>
+      <p>Home-lab agent that reads network detections over MCP, enriches them, and writes a triage summary.</p>
+    </div>
+    <div class="card">
+      <h3>RAG assistant over public security docs <span class="status">planned</span></h3>
+      <p>Retrieval over public references such as MITRE ATT&amp;CK and RFCs, with measured answer quality.</p>
+    </div>
+    <div class="card">
+      <h3>Prompt-injection testing of my own agent <span class="status">planned</span></h3>
+      <p>Adversarial tests mapped to the OWASP Top 10 for LLM Applications.</p>
+    </div>
+    <div class="card">
+      <h3>Agent evaluation harness <span class="status">planned</span></h3>
+      <p>A small framework that scores agent output against labeled lab data.</p>
+    </div>
+  </div>
+
+  <h2>Elsewhere</h2>
+  <ul class="links">
+    <li><a href="https://github.com/jamesbmorrison">GitHub</a></li>
+    <!-- Add your LinkedIn: <li><a href="https://www.linkedin.com/in/YOUR-URL">LinkedIn</a></li> -->
+    <li><a href="mailto:james@jamesbmorrison.com">james@jamesbmorrison.com</a></li>
+  </ul>
+
+  <footer>&copy; 2026 James Morrison. Projects here are built on personal lab data and public sources.</footer>
+</main>
+</body>
+</html>
